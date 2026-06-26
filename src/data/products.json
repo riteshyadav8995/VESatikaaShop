@@ -1,0 +1,267 @@
+{
+  "collections": [
+    {
+      "id": "womens-collection",
+      "name": "Women's Collection",
+      "description": "Elegant and contemporary designs tailored exclusively for modern women.",
+      "image": "https://images.pexels.com/photos/291762/pexels-photo-291762.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "mens-collection",
+      "name": "Men's Collection",
+      "description": "Sophisticated styling and premium fabrics for the refined gentleman.",
+      "image": "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "summer-collection",
+      "name": "Summer Collection",
+      "description": "Light, breathable fabrics and vibrant hues perfect for sunny days.",
+      "image": "https://images.pexels.com/photos/1755385/pexels-photo-1755385.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "winter-collection",
+      "name": "Winter Collection",
+      "description": "Stay warm without compromising on style with our cozy winter layers.",
+      "image": "https://images.pexels.com/photos/837140/pexels-photo-837140.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "accessories",
+      "name": "Accessories",
+      "description": "The perfect finishing touches to elevate any ensemble.",
+      "image": "https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "new-arrivals",
+      "name": "New Arrivals",
+      "description": "Discover our latest additions and stay ahead of the fashion curve.",
+      "image": "https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&w=800"
+    }
+  ],
+  "products": [
+    {
+      "id": "w1",
+      "collectionId": "womens-collection",
+      "name": "Classic Evening Dress",
+      "fabric": "Silk Blend",
+      "price": "₹4,500",
+      "availability": "In Stock",
+      "image": "https://images.pexels.com/photos/291762/pexels-photo-291762.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "w2",
+      "collectionId": "womens-collection",
+      "name": "Urban Chic Blouse",
+      "fabric": "Crepe",
+      "price": "₹1,800",
+      "availability": "In Stock",
+      "image": "https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "w3",
+      "collectionId": "womens-collection",
+      "name": "Signature Floral Skirt",
+      "fabric": "Georgette",
+      "price": "₹2,200",
+      "availability": "Limited Stock",
+      "image": "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "w4",
+      "collectionId": "womens-collection",
+      "name": "Tailored High-Waist Trousers",
+      "fabric": "Cotton Blend",
+      "price": "₹2,500",
+      "availability": "In Stock",
+      "image": "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "m1",
+      "collectionId": "mens-collection",
+      "name": "Sharp Formal Suit",
+      "fabric": "Premium Wool Blend",
+      "price": "₹12,000",
+      "availability": "Made to Order",
+      "image": "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "m2",
+      "collectionId": "mens-collection",
+      "name": "Casual Denim Jacket",
+      "fabric": "100% Cotton Denim",
+      "price": "₹3,500",
+      "availability": "In Stock",
+      "image": "https://images.pexels.com/photos/842811/pexels-photo-842811.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "m3",
+      "collectionId": "mens-collection",
+      "name": "Crisp White Shirt",
+      "fabric": "Egyptian Cotton",
+      "price": "₹1,800",
+      "availability": "In Stock",
+      "image": "https://images.pexels.com/photos/1040881/pexels-photo-1040881.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "m4",
+      "collectionId": "mens-collection",
+      "name": "Tailored Chinos",
+      "fabric": "Cotton Twill",
+      "price": "₹2,200",
+      "availability": "In Stock",
+      "image": "https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "s1",
+      "collectionId": "summer-collection",
+      "name": "Breezy Maxi Dress",
+      "fabric": "Lightweight Linen",
+      "price": "₹3,200",
+      "availability": "In Stock",
+      "image": "https://images.pexels.com/photos/1755385/pexels-photo-1755385.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "s2",
+      "collectionId": "summer-collection",
+      "name": "Tropical Print Shirt",
+      "fabric": "Viscose",
+      "price": "₹1,500",
+      "availability": "In Stock",
+      "image": "https://images.pexels.com/photos/1374910/pexels-photo-1374910.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "s3",
+      "collectionId": "summer-collection",
+      "name": "Summer Shorts",
+      "fabric": "Cotton Stretch",
+      "price": "₹1,200",
+      "availability": "Limited Stock",
+      "image": "https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "s4",
+      "collectionId": "summer-collection",
+      "name": "Light Romper",
+      "fabric": "Modal Blend",
+      "price": "₹2,000",
+      "availability": "In Stock",
+      "image": "https://images.pexels.com/photos/1021693/pexels-photo-1021693.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "s5",
+      "collectionId": "summer-collection",
+      "name": "Sun Hat & Tunic Set",
+      "fabric": "Organic Cotton",
+      "price": "₹2,800",
+      "availability": "In Stock",
+      "image": "https://images.pexels.com/photos/1758144/pexels-photo-1758144.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "wi1",
+      "collectionId": "winter-collection",
+      "name": "Thick Knit Sweater",
+      "fabric": "Merino Wool",
+      "price": "₹4,000",
+      "availability": "In Stock",
+      "image": "https://images.pexels.com/photos/837140/pexels-photo-837140.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "wi2",
+      "collectionId": "winter-collection",
+      "name": "Classic Overcoat",
+      "fabric": "Wool Blend",
+      "price": "₹8,500",
+      "availability": "Limited Stock",
+      "image": "https://images.pexels.com/photos/1024311/pexels-photo-1024311.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "wi3",
+      "collectionId": "winter-collection",
+      "name": "Fleece Lined Jacket",
+      "fabric": "Polyester & Fleece",
+      "price": "₹5,200",
+      "availability": "In Stock",
+      "image": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "wi4",
+      "collectionId": "winter-collection",
+      "name": "Cashmere Scarf",
+      "fabric": "100% Cashmere",
+      "price": "₹2,500",
+      "availability": "In Stock",
+      "image": "https://images.pexels.com/photos/3760975/pexels-photo-3760975.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "a1",
+      "collectionId": "accessories",
+      "name": "Classic Leather Belt",
+      "fabric": "Genuine Leather",
+      "price": "₹1,200",
+      "availability": "In Stock",
+      "image": "https://images.pexels.com/photos/279932/pexels-photo-279932.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "a2",
+      "collectionId": "accessories",
+      "name": "Designer Sunglasses",
+      "fabric": "Acetate Frame",
+      "price": "₹3,500",
+      "availability": "In Stock",
+      "image": "https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "a3",
+      "collectionId": "accessories",
+      "name": "Minimalist Watch",
+      "fabric": "Stainless Steel",
+      "price": "₹5,800",
+      "availability": "In Stock",
+      "image": "https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "a4",
+      "collectionId": "accessories",
+      "name": "Leather Tote Bag",
+      "fabric": "Premium Leather",
+      "price": "₹6,000",
+      "availability": "Limited Stock",
+      "image": "https://images.pexels.com/photos/370474/pexels-photo-370474.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "n1",
+      "collectionId": "new-arrivals",
+      "name": "Avant-Garde Jacket",
+      "fabric": "Mixed Media",
+      "price": "₹7,500",
+      "availability": "In Stock",
+      "image": "https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "n2",
+      "collectionId": "new-arrivals",
+      "name": "Silk Asymmetric Dress",
+      "fabric": "Pure Silk",
+      "price": "₹6,200",
+      "availability": "Limited Stock",
+      "image": "https://images.pexels.com/photos/949670/pexels-photo-949670.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "n3",
+      "collectionId": "new-arrivals",
+      "name": "Monochrome Two-Piece",
+      "fabric": "Crepe",
+      "price": "₹4,800",
+      "availability": "In Stock",
+      "image": "https://images.pexels.com/photos/974911/pexels-photo-974911.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "n4",
+      "collectionId": "new-arrivals",
+      "name": "Textured Midi Skirt",
+      "fabric": "Jacquard",
+      "price": "₹3,000",
+      "availability": "In Stock",
+      "image": "https://images.pexels.com/photos/999267/pexels-photo-999267.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+  ]
+}
