@@ -35,7 +35,7 @@
   position: absolute;
   top: 15px;
   right: 15px;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: var(--color-surface);
   color: var(--color-text-primary);
   padding: 5px 12px;
   font-size: 0.8rem;
@@ -43,6 +43,7 @@
   text-transform: uppercase;
   border-radius: 20px;
   backdrop-filter: blur(4px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
 .product-info {
