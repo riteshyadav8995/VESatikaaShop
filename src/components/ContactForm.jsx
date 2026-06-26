@@ -13,11 +13,13 @@ const ContactForm = ({ initialMessage = "" }) => {
     const data = new FormData(form);
 
     try {
-      const response = await fetch("https://formspree.io/f/tjrgjvd", {
+      const formJson = Object.fromEntries(data.entries());
+      const response = await fetch("https://formspree.io/f/xpqgpvzp", {
         method: "POST",
-        body: data,
+        body: JSON.stringify(formJson),
         headers: {
-          'Accept': 'application/json'
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
         }
       });
 
