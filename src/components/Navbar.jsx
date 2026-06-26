@@ -1,13 +1,27 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, ShoppingBag } from 'lucide-react';
+import { Menu, X, ShoppingBag, Moon, Sun } from 'lucide-react';
 import './Navbar.css';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(() => {
+    return localStorage.getItem('theme') === 'dark';
+  });
   const location = useLocation();
 
+  useEffect(() => {
+    if (isDarkMode) {
+      document.body.classList.add('dark-mode');
+      localStorage.setItem('theme', 'dark');
+    } else {
+      document.body.classList.remove('dark-mode');
+      localStorage.setItem('theme', 'light');
+    }
+  }, [isDarkMode]);
+
   const toggleMenu = () => setIsOpen(!isOpen);
+  const toggleTheme = () => setIsDarkMode(!isDarkMode);
 
   const isActive = (path) => location.pathname === path ? 'active' : '';
 
@@ -38,6 +52,15 @@ const Navbar = () => {
             <Link to="/contact" className={`nav-links ${isActive('/contact')}`} onClick={toggleMenu}>
               Contact
             </Link>
+          </li>
+          <li className="nav-item theme-toggle-item">
+            <button 
+              onClick={toggleTheme} 
+              className="theme-toggle-btn"
+              aria-label="Toggle Dark Mode"
+            >
+              {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
+            </button>
           </li>
         </ul>
       </div>
